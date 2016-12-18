@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fetch Sailor</title>
+<h>Please enter the details</h>
+</head>
+<body>
+<form action="WebClient" method="GET">
+First Name: <input type="text" name="first_name"><br />
+Last Name: <input type="text" name="last_name" /><br />
+Boat Type: <select name="boat_type">
+<option value="">select</option>
+  <option value="Catalina">Catalina</option>
+  <option value="Hunter">Hunter</option>
+  <option value="Morgan">Morgan</option>
+</select><br />
+Boat length: <input type="text" name="boat_length" /><br />
+Build Year: <input type="text" name="build_year" /><br />
+Motor Type: <select name="motor_type">
+<option value="">select</option>
+  <option value="inboard">In board</option>
+  <option value="outboard">Out board</option>
+  <option value="none">none</option>
+</select><br />
+Slip Fee Paid:<input type="radio" name="fee_paid" value="" checked> None<input type="radio" name="fee_paid" value="Yes"> Yes <input type="radio" name="fee_paid" value="No" > No<br>
+Moored Slip: <input type="text" name="moored_slip" /><br />
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
